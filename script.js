@@ -30,23 +30,23 @@ async function checkWeather(city) {
     
     switch (weather_data.weather[0].main) {
         case 'Clouds':
-            Weather_Default_Image.src = "/Prodigy_WD_05/images/Cloudy_07.png"
+            Weather_Default_Image.src = "../Prodigy_WD_05/images/Cloudy_07.png"
             // Weather_Default_Image.src = "/Wheather_Display_page/WD_05/images/Cloudy_07.png"
             break;
         case 'Clear':
-            Weather_Default_Image.src = "/Prodigy_WD_05/images/Sunny_03.png"
+            Weather_Default_Image.src = "../Prodigy_WD_05/images/Sunny_03.png"
             // Weather_Default_Image.src = "/Wheather_Display_page/WD_05/images/Sunny_03.png"
             break;
         case 'Rain':
-            Weather_Default_Image.src = "/Prodigy_WD_05/images/Rainny_02.png"
+            Weather_Default_Image.src = "../Prodigy_WD_05/images/Rainny_02.png"
             // Weather_Default_Image.src = "/Wheather_Display_page/WD_05/images/Rainny_02.png"
             break;
         case 'Mist':
-            Weather_Default_Image.src = "/Prodigy_WD_05/images/Moderate_01.png"
+            Weather_Default_Image.src = "../Prodigy_WD_05/images/Moderate_01.png"
             // Weather_Default_Image.src = "/Wheather_Display_page/WD_05/images/Moderate_01.png"
             break;
         case 'Snow':
-            Weather_Default_Image.src = "/Prodigy_WD_05/images/Snow_06.png"
+            Weather_Default_Image.src = "../Prodigy_WD_05/images/Snow_06.png"
             // Weather_Default_Image.src = "/Wheather_Display_page/WD_05/images/Snow_06.png"
             break;    
         default:
