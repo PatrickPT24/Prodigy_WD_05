@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="video">
+        <video autoplay loopmuted plays-inline>
+            <source src="/Wheather_Display_page/WD_05/images/3141208-uhd_3840_2160_25fps.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="message"> Welcome TO Weather App</div>
+    <div class="container">
+        <div class="header">
+            <div class="search_box">
+                <input type="text" placeholder="Enter Location" class="input_box">
+                <button class="fa-solid fa-magnifying-glass fa-beat-fade" style="color: #63E6BE;" id="searchBtn"></button>
+            </div>
+        </div>
+
+        <div class="location-not-found">
+            <h1>Sorry, Location not Found...!</h1>
+            <img src="/Wheather_Display_page/WD_05/images/Not_found_05.png" alt="404 Error">
+        </div>
+        <div class="weather_body">
+            <img src="/Wheather_Display_page/WD_05/images/Default_04.png" alt="Weather_Image" class="Weather_Default_Image">
+
+            <div class="weather_box">
+                <p class="Temperature">0<sup>°C</sup></p>
+                <p class="Description">Light Rain</p>
+            </div>
+
+            <div class="weather_details">
+                <div class="humidity">
+                    <i class="fa-sharp-duotone fa-solid fa-droplet"></i>
+                    <div class="text">
+                        <span id="humidity">45%</span>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="Wind-Speed">
+                    <i class="fa-sharp-duotone fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="Wind-Speed">12kmph</span>
+                        <p>Wind-Speed</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- <div class="search-bax">
+        <i class='bx bx-map'></i>
+        <input type="text" placeholder="Location">
+        <button class="bx bx-search"></button>
+    </div> -->
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/270a71903e.js" crossorigin="anonymous"></script>
+</body>
+</html>
