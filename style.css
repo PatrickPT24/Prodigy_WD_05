@@ -33,6 +33,7 @@ body{
 
 .message{
     font-size: 50px;
+    font-weight: 600;
     color: red;
     text-align: center;
     margin-bottom: 20px;
