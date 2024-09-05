@@ -5,32 +5,15 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    /* border: none;
-    outline: none; */
 }
-body{
-    
+
+body{  
     height: 100vh;
-    /* background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40));
-    background-position: center;
-    background-size: center; */
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: aliceblue;
-    /* background: url('/Wheather_Display_page/WD_05/images/12.beautiful-garden-flowers-vintage-floral-card.jpg'); */
-    /* background-size: cover; */
-    /* animation-name: body;
-    animation-duration: 2x; */
 }
-/* @keyframes body {
-    0%{
-        background-image: url('/Wheather_Display_page/WD_05/images/12.beautiful');
-    }
-    100%{
-        background-image: url('/Wheather_Display_page/WD_05/images/12.beautiful');
-    }
-} */
 
 .video {
     position: fixed;
@@ -49,15 +32,12 @@ body{
 }
 
 .message{
-    /* position: relative; */
     font-size: 50px;
     color: red;
     text-align: center;
     margin-bottom: 20px;
-    /* height: 600px; */
     white-space: nowrap;
     overflow: hidden;
-    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     animation: message 5s  linear forwards ;
 }
 @keyframes message {
@@ -72,15 +52,12 @@ body{
 .container{
     width: 400px;
     height: auto;
-    background-color: rgba(245, 222, 179, .1);
+    background-color: rgba(245, 179, 237, 0.447);
     border-radius: 15px;
     padding: 20px;
-    /* position: absolute; */
 }
 
 .search_box{
-    /* width: 100%;
-    height: min-content; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,8 +66,7 @@ body{
 .search_box input{
     width: 80%;
     font-size: 20px;
-    /* text-transform: capitalize; */
-    color: rgba(222, 241, 100, 0.719);
+    color: white;
     background-color: rgba(245, 222, 179, .1);
     padding: 12px 16px;
     border-radius: 20px;
@@ -135,24 +111,19 @@ body{
     color: red;
     font-size: 40px;
     font-weight: 800;
-    /* position: relative; */
 }
 
 .weather_box .Temperature sup{
     font-size: 20px;
-    /* position: absolute;
-    font-weight: 600; */
 }
 
 .weather_box .Description{
     color: aquamarine;
     font-size: 20px;
     font-weight: 700;
-    /* text-transform: capitalize; */
 }
 
 .weather_details{
-    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
@@ -163,19 +134,10 @@ body{
     display: flex;
     align-items: center;
 }
-/* .humidity{
-    margin-left: 20px;
-}
-.Wind-Speed{
-    margin-left: 20px;
-} */
 
 .weather_details i{
     font-size: 38px;
 }
-/* .weather_details .text{
-    margin: 10px;
-} */
 
 .text span{
     font-size: 22px;
@@ -196,20 +158,3 @@ body{
 .location-not-found img {
     width: 80%;
 }
-
-/* .location-not-found{
-margin-top: 20px;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.location-not-found h1{
-    font-size: 22px;
-    color: gray;
-    margin-block-end: 15px;
-}
-.location-not-found img{
-    width: 80%;
-} 
- */
