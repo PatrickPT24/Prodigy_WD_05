@@ -73,7 +73,7 @@ body{
 }
 
 .search_box input::placeholder{
-    color: rgba(245, 222, 179, 0.52);
+    color: white;
 }
 
 .search_box button{
@@ -118,7 +118,7 @@ body{
 }
 
 .weather_box .Description{
-    color: aquamarine;
+    color: rgb(237, 233, 13);
     font-size: 20px;
     font-weight: 700;
 }
